@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head
+  dir="ltr"
+  >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link
+      href="//db.onlinewebfonts.com/c/6cf0ce88e2fb8e3c53cff722a765a50c?family=Circular+Air+Bold"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito&family=Nunito+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- title -->
+    <title>MBNServices - שירותים טכנולגיים - בניית אתרים - פיתוח אפליקציות - מערכות הזמנה למסעדות - אתרי קורסים</title>
+  </head>
+  <body
+  dir="ltr"
+  >
+    <div class="mbn-main-container">
+      <!-- section-1 -->
+      <section id="mbn-section-one">
+        <header class="mbn-section-one-header">
+          <div class="mbn-section-one-header-logo">
+            <img src="./images/main-logo.png" alt="mbn-logo" />
+            <h2>MBNServices</h2>
+          </div>
+          <navbar class="mbn-section-one-header-navbar">
+            <ul class="mbn-section-one-header-navbar-navigation">
+              <li><a class="active" href="/">צור קשר</a></li>
+              <li><a href="/">קצת עלינו</a></li>
+              <li><a href="/">פרויקטים נבחרים</a></li>
+              <li><a href="/">השירותים שלנו</a></li>
+            </ul>
+            <div class="mbn-section-one-header-navbar-actions">
+              <button class="btn btn-white">פניה בוואצפ</button>
+              <button class="btn btn-orange">חייג אלינו</button>
+            </div>
+            <button class="mbn-section-one-header-toggle-button" type="button">
+              <div></div>
+              <div></div>
+              <div></div>
+            </button>
+          </navbar>
+        </header>
+
+        <div class="mbn-section-one-sidebar">
+          <button class="mbn-section-one-sidebar-close-btn">
+            <svg
+              width="10"
+              height="11"
+              viewBox="0 0 10 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.8837 5.50023L9.81688 1.56748C10.061 1.32333 10.061 0.927487 9.81688 0.683357C9.57273 0.439207 9.17688 0.439207 8.93275 0.683357L4.99999 4.61652L1.06724 0.683357C0.823086 0.439207 0.427243 0.439207 0.183113 0.683357C-0.061018 0.927507 -0.0610375 1.32335 0.183113 1.56748L4.11627 5.50023L0.183113 9.433C-0.0610375 9.67715 -0.0610375 10.073 0.183113 10.3171C0.427263 10.5613 0.823106 10.5613 1.06724 10.3171L4.99999 6.38394L8.93273 10.3171C9.17688 10.5613 9.57273 10.5613 9.81686 10.3171C10.061 10.073 10.061 9.67713 9.81686 9.433L5.8837 5.50023Z"
+                fill="#130F26"
+              />
+            </svg>
+          </button>
+          <div class="mbn-section-one-sidebar-logo">
+            <img src="./images/main-logo.png" alt="mbn-logo" />
+            <h2>MBNServices</h2>
+          </div>
+          <ul class="mbn-section-one-sidebar-navigation">
+            <li><a class="active" href="/">צור קשר</a></li>
+            <li><a href="/">קצת עלינו</a></li>
+            <li><a href="/">פרויקטים נבחרים</a></li>
+            <li><a href="/">השירותים שלנו</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="mbn-section-one-showcase">
+          <img
+            class="mbn-section-one-showcase-img"
+            src="./images/section1-rocket.png"
+            alt="rocket"
+          />
+          <div
+            class="mbn-section-one-showcase-item mbn-section-one-showcase-education"
+          >
+            <button
+              class="mbn-section-one-showcase-btn mbn-section-one-showcase-education-btn"
+              data-service="education"
+            >
+              <img src="./images/section1-education.svg" alt="education" />
+            </button>
+            <p
+            class="services-p"
+            >אתר קורסים</p>
+          </div>
+          <div
+            class="mbn-section-one-showcase-item mbn-section-one-showcase-card"
+          >
+            <button
+              class="mbn-section-one-showcase-btn mbn-section-one-showcase-card-btn"
+              data-service="card"
+            >
+              <img src="./images/section1-card.svg" alt="card" />
+            </button>
+            <p
+            class="services-p"
+            >כרטיס ביקור דיגיטלי</p>
+          </div>
+          <div
+            class="mbn-section-one-showcase-item mbn-section-one-showcase-store"
+          >
+            <button
+              class="mbn-section-one-showcase-btn mbn-section-one-showcase-store-btn"
+              data-service="cart"
+            >
+              <img src="./images/section1-cart.svg" alt="shopping-cart" />
+            </button>
+            <p
+            class="services-p"
+            >חנות אינטרנטית</p>
+          </div>
+          <div
+            class="mbn-section-one-showcase-item mbn-section-one-showcase-development"
+          >
+            <button
+              class="mbn-section-one-showcase-btn mbn-section-one-showcase-development-btn"
+              data-service="development"
+            >
+              <img src="./images/section1-development.svg" alt="development" />
+            </button>
+            <p
+            class="services-p"
+            >אתרים ומערכות מורכבות</p>
+          </div>
+          <div
+            class="mbn-section-one-showcase-item mbn-section-one-showcase-restaurant"
+          >
+            <button
+              class="mbn-section-one-showcase-btn mbn-section-one-showcase-restaurant-btn"
+              data-service="serving"
+            >
+              <img src="./images/section1-serving.svg" alt="restaurant" />
+            </button>
+            <p
+              style="font-size:18px"
+            >אתר הזמנות למסעדות</p>
+          </div>
+        </div>
+        <div class="mbn-section-one-content">
+          <h1><span> נוכחות דיגיטלית חזקה <br></span>חשובה היום יותר מאי פעם</h1>
+          <p>עיצוב ופיתוח חנויות אינטרנטיות (איקומרס), ניהול נכסים דיגיטליים, פיתוח אתרי תדמית, פיתוח מערכות הזמנה למסעדות, בדיקות תוכנה והצעות לשיפור אתר.
+            המומחיות שלנו היא בעיצוב ממשק וחווית משתמש ברמה גבוהה ואיכותית</p>
+          <div class="mbn-section-one-content-actions">
+            <button class="btn btn-white">קח אותי לוואצפ</button>
+            <button class="btn btn-orange">התחל עכשיו</button>
+          </div>
+        </div>
+        <div class="mbn-section-one-logos">
+          <img
+            class="mbn-section-one-logo mbn-section-one-chase-logo"
+            src="./images/section1-chase.png"
+            alt="chase-logo"
+          />
+          <img
+            class="mbn-section-one-logo mbn-section-one-asana-logo"
+            src="./images/section1-asana.png"
+            alt="asana-logo"
+          />
+          <img
+            class="mbn-section-one-logo mbn-section-one-buzzfeed-logo"
+            src="./images/section1-buzzfeed.png"
+            alt="buzzfeed-logo"
+          />
+          <img
+            class="mbn-section-one-logo mbn-section-one-toggl-logo"
+            src="./images/section1-toggl.png"
+            alt="toggl-logo"
+          />
+          <img
+            class="mbn-section-one-logo mbn-section-one-walmart-logo"
+            src="./images/section1-walmart.png"
+            alt="walmart-logo"
+          />
+        </div>
+      </section>
+      <!-- section-2 -->
+      <section id="mbn-section-two">
+        <div class="mbn-section-two-services">
+          <div class="mbn-section-two-services-list">
+            <div class="mbn-section-two-service mbn-section-two-service-education">
+              <div class="mbn-section-two-service-heading mbn-section-two-service-education-heading">
+                <img src="./images/section2-diamond-shape.svg" alt="diamond" />
+                <h2>אתר קורסים</h2>
+              </div>
+              <div class="mbn-section-two-service-content mbn-section-two-service-education-content">
+                <div class="mbn-section-two-service-data mbn-section-two-service-education-data">
+                  <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+                  <p>
+                    טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר
+                    ממחולל הטקסט בערבית, בו ניתן להפיק טקסט זה הוא דוגמה לטקסט
+                    שניתן להחליף ..
+                  </p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26.438" height="11.749" viewBox="0 0 26.438 11.749">
+                      <path id="Path_372" data-name="Path 372" d="M.153,142.53l5.875-5.355a.491.491,0,0,1,.536-.076.444.444,0,0,1,.291.444v3.427H25.949a.471.471,0,0,1,.49.489V144.4a.471.471,0,0,1-.49.489H6.854v3.427a.461.461,0,0,1-.291.444.477.477,0,0,1-.536-.092L.153,143.248A.5.5,0,0,1,0,142.881.483.483,0,0,1,.153,142.53Z" transform="translate(0 -137.052)" fill="#f48c06"/>
+                    </svg>
+                    למד עוד
+                  </a>
+                </div>
+                <div class="mbn-section-two-service-card-container-wrapper">
+                  <div class="mbn-section-two-service-card-container">
+                    <div class="mbn-section-two-service-card">
+                      <h2>טקסט זה הוא טקסט ברירת מחדל שניתן להחליף מעת לעת</h4>
+                      <img src="./images/section2-card-img.jpg" alt="img">
+                      <div class="mbn-section-two-service-card-navigate-container">
+                        <a href="#"><img src="./images/navigate-icon.svg" alt="navigate"></a>
+                        <h4>טקסט זה הוא טקסט ברירת מחדל שניתן </h4>
+                      </div>
+                    </div>
+                    <span class="mbn-section-two-service-card-blue-circle"></span>
+                    <span class="mbn-section-two-service-card-orange-circle"></span>
+                    <span class="mbn-section-two-service-card-green-circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mbn-section-two-service mbn-section-two-service-cart">
+              <div class="mbn-section-two-service-heading mbn-section-two-service-cart-heading">
+                <img src="./images/section2-diamond-shape.svg" alt="diamond" />
+                <h2>חנות אינטרנטית</h2>
+              </div>
+              <div class="mbn-section-two-service-content mbn-section-two-service-cart-content">
+                <div class="mbn-section-two-service-data mbn-section-two-service-cart-data">
+                  <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+                  <p>
+                    טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר
+                    ממחולל הטקסט בערבית, בו ניתן להפיק טקסט זה הוא דוגמה לטקסט
+                    שניתן להחליף ..
+                  </p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26.438" height="11.749" viewBox="0 0 26.438 11.749">
+                      <path id="Path_372" data-name="Path 372" d="M.153,142.53l5.875-5.355a.491.491,0,0,1,.536-.076.444.444,0,0,1,.291.444v3.427H25.949a.471.471,0,0,1,.49.489V144.4a.471.471,0,0,1-.49.489H6.854v3.427a.461.461,0,0,1-.291.444.477.477,0,0,1-.536-.092L.153,143.248A.5.5,0,0,1,0,142.881.483.483,0,0,1,.153,142.53Z" transform="translate(0 -137.052)" fill="#f48c06"/>
+                    </svg>
+                    למד עוד
+                  </a>
+                </div>
+                <div class="mbn-section-two-service-card-container-wrapper">
+                  <div class="mbn-section-two-service-card-container">
+                    <div class="mbn-section-two-service-card">
+                      <h2>טקסט זה הוא טקסט ברירת מחדל שניתן להחליף מעת לעת</h4>
+                      <img src="./images/section2-card-img.jpg" alt="img">
+                      <div class="mbn-section-two-service-card-navigate-container">
+                        <a href="#"><img src="./images/navigate-icon.svg" alt="navigate"></a>
+                        <h4>טקסט זה הוא טקסט ברירת מחדל שניתן </h4>
+                      </div>
+                    </div>
+                    <span class="mbn-section-two-service-card-blue-circle"></span>
+                    <span class="mbn-section-two-service-card-orange-circle"></span>
+                    <span class="mbn-section-two-service-card-green-circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mbn-section-two-service mbn-section-two-service-development">
+              <div class="mbn-section-two-service-heading mbn-section-two-service-development-heading">
+                <img src="./images/section2-diamond-shape.svg" alt="diamond" />
+                <h2>חנות אינטרנטית</h2>
+              </div>
+              <div class="mbn-section-two-service-content mbn-section-two-service-development-content">
+                <div class="mbn-section-two-service-data mbn-section-two-service-development-data">
+                  <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+                  <p>
+                    טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר
+                    ממחולל הטקסט בערבית, בו ניתן להפיק טקסט זה הוא דוגמה לטקסט
+                    שניתן להחליף ..
+                  </p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26.438" height="11.749" viewBox="0 0 26.438 11.749">
+                      <path id="Path_372" data-name="Path 372" d="M.153,142.53l5.875-5.355a.491.491,0,0,1,.536-.076.444.444,0,0,1,.291.444v3.427H25.949a.471.471,0,0,1,.49.489V144.4a.471.471,0,0,1-.49.489H6.854v3.427a.461.461,0,0,1-.291.444.477.477,0,0,1-.536-.092L.153,143.248A.5.5,0,0,1,0,142.881.483.483,0,0,1,.153,142.53Z" transform="translate(0 -137.052)" fill="#f48c06"/>
+                    </svg>
+                    למד עוד
+                  </a>
+                </div>
+                <div class="mbn-section-two-service-card-container-wrapper">
+                  <div class="mbn-section-two-service-card-container">
+                    <div class="mbn-section-two-service-card">
+                      <h2>טקסט זה הוא טקסט ברירת מחדל שניתן להחליף מעת לעת</h4>
+                      <img src="./images/section2-card-img.jpg" alt="img">
+                      <div class="mbn-section-two-service-card-navigate-container">
+                        <a href="#"><img src="./images/navigate-icon.svg" alt="navigate"></a>
+                        <h4>טקסט זה הוא טקסט ברירת מחדל שניתן </h4>
+                      </div>
+                    </div>
+                    <span class="mbn-section-two-service-card-blue-circle"></span>
+                    <span class="mbn-section-two-service-card-orange-circle"></span>
+                    <span class="mbn-section-two-service-card-green-circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mbn-section-two-service mbn-section-two-service-digital-card">
+              <div class="mbn-section-two-service-heading mbn-section-two-service-digital-card-heading">
+                <img src="./images/section2-diamond-shape.svg" alt="diamond" />
+                <h2>כרטיס ביקור דיגיטלי</h2>
+              </div>
+              <div class="mbn-section-two-service-content mbn-section-two-service-digital-card-content">
+                <div class="mbn-section-two-service-data mbn-section-two-service-digital-card-data">
+                  <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+                  <p>
+                    טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר
+                    ממחולל הטקסט בערבית, בו ניתן להפיק טקסט זה הוא דוגמה לטקסט
+                    שניתן להחליף ..
+                  </p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26.438" height="11.749" viewBox="0 0 26.438 11.749">
+                      <path id="Path_372" data-name="Path 372" d="M.153,142.53l5.875-5.355a.491.491,0,0,1,.536-.076.444.444,0,0,1,.291.444v3.427H25.949a.471.471,0,0,1,.49.489V144.4a.471.471,0,0,1-.49.489H6.854v3.427a.461.461,0,0,1-.291.444.477.477,0,0,1-.536-.092L.153,143.248A.5.5,0,0,1,0,142.881.483.483,0,0,1,.153,142.53Z" transform="translate(0 -137.052)" fill="#f48c06"/>
+                    </svg>
+                    למד עוד
+                  </a>
+                </div>
+                <div class="mbn-section-two-service-card-container-wrapper">
+                  <div class="mbn-section-two-service-card-container">
+                    <div class="mbn-section-two-service-card">
+                      <h2>טקסט זה הוא טקסט ברירת מחדל שניתן להחליף מעת לעת</h4>
+                      <img src="./images/section2-card-img.jpg" alt="img">
+                      <div class="mbn-section-two-service-card-navigate-container">
+                        <a href="#"><img src="./images/navigate-icon.svg" alt="navigate"></a>
+                        <h4>טקסט זה הוא טקסט ברירת מחדל שניתן </h4>
+                      </div>
+                    </div>
+                    <span class="mbn-section-two-service-card-blue-circle"></span>
+                    <span class="mbn-section-two-service-card-orange-circle"></span>
+                    <span class="mbn-section-two-service-card-green-circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mbn-section-two-service mbn-section-two-service-show mbn-section-two-service-serving">
+              <div class="mbn-section-two-service-heading mbn-section-two-service-serving-heading">
+                <img src="./images/section2-diamond-shape.svg" alt="diamond" />
+                <h2>אתר הזמנות למסעדות</h2>
+              </div>
+              <div class="mbn-section-two-service-content mbn-section-two-service-serving-content">
+                <div class="mbn-section-two-service-data mbn-section-two-service-serving-data">
+                  <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+                  <p>
+                    טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר
+                    ממחולל הטקסט בערבית, בו ניתן להפיק טקסט זה הוא דוגמה לטקסט
+                    שניתן להחליף ..
+                  </p>
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26.438" height="11.749" viewBox="0 0 26.438 11.749">
+                      <path id="Path_372" data-name="Path 372" d="M.153,142.53l5.875-5.355a.491.491,0,0,1,.536-.076.444.444,0,0,1,.291.444v3.427H25.949a.471.471,0,0,1,.49.489V144.4a.471.471,0,0,1-.49.489H6.854v3.427a.461.461,0,0,1-.291.444.477.477,0,0,1-.536-.092L.153,143.248A.5.5,0,0,1,0,142.881.483.483,0,0,1,.153,142.53Z" transform="translate(0 -137.052)" fill="#f48c06"/>
+                    </svg>
+                    למד עוד
+                  </a>
+                </div>
+                <div class="mbn-section-two-service-card-container-wrapper">
+                  <div class="mbn-section-two-service-card-container">
+                    <div class="mbn-section-two-service-card">
+                      <h2>טקסט זה הוא טקסט ברירת מחדל שניתן להחליף מעת לעת</h4>
+                      <img src="./images/section2-card-img.jpg" alt="img">
+                      <div class="mbn-section-two-service-card-navigate-container">
+                        <a href="#"><img src="./images/navigate-icon.svg" alt="navigate"></a>
+                        <h4>טקסט זה הוא טקסט ברירת מחדל שניתן </h4>
+                      </div>
+                    </div>
+                    <span class="mbn-section-two-service-card-blue-circle"></span>
+                    <span class="mbn-section-two-service-card-orange-circle"></span>
+                    <span class="mbn-section-two-service-card-green-circle"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mbn-section-two-services-clock-container">
+            <div class="mbn-section-two-services-clock">
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 1"
+              >
+                <button data-position="2" data-service-name="education"></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 2"
+              >
+                <button data-position="1" data-service-name="digital-card"></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 3"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 4"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 5"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 6"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 7"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 8"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 9"
+              >
+                <button></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 10"
+              >
+                <button data-position="5" data-service-name="cart"></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 11"
+              >
+                <button data-position="4" data-service-name="development"></button>
+              </div>
+              <div
+                class="mbn-section-two-services-clock-interval"
+                style="--i: 12"
+              >
+                <button
+                  class="active"
+                  data-position="3"
+                  data-service-name="serving"
+                ></button>
+              </div>
+
+              <div class="mbn-section-two-services-clock-handle">
+                <img src="./images/section2-handle.png" alt="handle" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mbn-section-two-about-us">
+          <div class="mbn-section-two-about-us-bg-img"></div>
+          <div class="mbn-section-two-about-us-img-container">
+            <img src="./images/section2-community.svg" alt="community" />
+          </div>
+          <div class="mbn-section-two-about-us-content">
+            <h1>קצת<span> עלינו</span></h1>
+            <p  dir="rtl">
+              האתרים שהפקנו ללקוחותנו הם אסתטיים, אינטואיטיביים וידידותיים למשתמש. זהו למעשה המפתח להצלחה של כל אתר או פלטפורמה מקוונת.
+
+              אנחנו לא רק בונים אתרים - אנחנו בונים מותגים מקוונים! אנחנו עוזרים לעסקים להגיע לקהל היעד שלהם!
+             - למשוך יותר לידים ולקוחות.
+              
+              אתה רוצה שהעסק שלך יצליח גם במדיה?
+              אתה רוצה להגיע ללקוחות חדשים, להגביר את המודעות למותג ולעלות את המכירות שלך?
+              
+              אנחנו ב- MBNServices נגשים זאת יחד איתך!
+              
+              אנו מתחייבים להעניק יחס אישי ומותאם, שיתוף פעולה הדוק, והתאמת תהליך העבודה לצרכים ולייחודיות של העסק שלך.
+              נפתח אסטרטגיות מותאמות אישית שיספקו את התוצאות הרצויות עבורך.
+              
+              בין אם אתה רוצה שלעסק שלך תהיה נוכחות דיגיטלית גבוהה ואיכותית, ובין אם אתה רוצה לשפר את הנוכחות הדיגיטלית הקיימת, MBNServices כאן כדי לעשות זאת הכי טוב!
+              צוות המומחים שלנו יוביל את העסק שלכם להצלחה!!!
+            </p>
+          </div>
+        </div>
+        <div class="mbn-section-two-contact-us">
+          <h1 class="mbn-section-two-contact-us-heading">צור קשר</h1>
+          <p class="mbn-section-two-contact-us-description">
+            אנחנו נשמח לעמוד לשירותכם בכל עת
+          </p>
+          <div class="mbn-section-two-contact-us-content">
+            <div class="mbn-section-two-contact-us-social-media">
+              <img
+                class="mbn-section-two-contact-us-social-media-img"
+                src="./images/section2-person.svg"
+                alt="person"
+              />
+              <a
+                class="mbn-section-two-contact-us-social-media-link mbn-section-two-contact-us-meta-link"
+                href="https://www.facebook.com"
+                target="_blank"
+                >
+                <img src="./images/meta.svg" alt="meta-icon"/>
+              </a>
+              <a
+                class="mbn-section-two-contact-us-social-media-link mbn-section-two-contact-us-twitter-link"
+                href="https://www.twitter.com"
+                target="_blank"
+                >
+                <img src="./images/twitter.svg" alt="twitter-icon"/>
+              </a>
+              <a
+                class="mbn-section-two-contact-us-social-media-link mbn-section-two-contact-us-linkedin-link"
+                href="https://www.linkedin.com"
+                target="_blank">
+                <img src="./images/linkedin.svg" alt="linkedin-icon"/>
+              </a>
+              <a
+                class="mbn-section-two-contact-us-social-media-link mbn-section-two-contact-us-instagram-link"
+                href="https://www.instagram.com"
+                target="_blank"
+                >
+                <img src="./images/instagram.svg" alt="instagram-icon"/>
+              </a>
+            </div>
+            <form class="mbn-section-two-contact-us-form" action="/">
+              <div class="mbn-section-two-contact-us-form-input-container">
+                <label
+                  for="contact-us-form-name"
+                  class="mbn-section-two-contact-us-form-input-label"
+                  >שֵׁם</label
+                >
+                <input type="text" id="contact-us-form-name" />
+              </div>
+              <div class="mbn-section-two-contact-us-form-input-container">
+                <label
+                  for="contact-us-form-email"
+                  class="mbn-section-two-contact-us-form-input-label"
+                  >אימייל</label
+                >
+                <input type="email" id="contact-us-form-email" />
+              </div>
+              <div class="mbn-section-two-contact-us-form-radio-container">
+                <label
+                  for="service-type"
+                  class="mbn-section-two-contact-us-form-input-label"
+                  >בחר שירות</label
+                >
+                <label
+                  for="restaurant"
+                  class="mbn-section-two-contact-us-form-radio-option"
+                >
+                  <input type="radio" id="restaurant" name="service-type" />
+                  <div
+                    class="mbn-section-two-contact-us-form-radio-option-icon-container"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="54.507"
+                      height="54.519"
+                      viewBox="0 0 54.507 54.519"
+                    >
+                      <g transform="translate(-0.056)">
+                        <path
+                          d="M52.966,28.975H51.289A24.013,24.013,0,0,0,31.75,6.988a5.627,5.627,0,0,0,.457-2.2,4.791,4.791,0,0,0-9.581,0,5.627,5.627,0,0,0,.457,2.2A24.22,24.22,0,0,0,3.331,28.975H1.653a1.56,1.56,0,0,0-1.6,1.554,1.6,1.6,0,0,0,1.6,1.6H52.966a1.6,1.6,0,0,0,1.6-1.6,1.56,1.56,0,0,0-1.6-1.554Zm-25.55-22.4a1.77,1.77,0,0,1-1.6-1.785,1.6,1.6,0,0,1,3.194,0A1.769,1.769,0,0,1,27.416,6.576ZM4.847,38.513a1.581,1.581,0,0,0-1.6,1.6v12.8a1.581,1.581,0,0,0,1.6,1.6H9.637V38.513Zm44.739-1.367a3.193,3.193,0,0,0-4.516,0l-9.145,9.1a6.331,6.331,0,0,1-4.262,1.846H27.288a1.6,1.6,0,1,1,0-3.194h4.918A3.2,3.2,0,0,0,35.4,41.707a3.167,3.167,0,0,0-3.194-3.151H29.013a1.847,1.847,0,0,1-1.437-.383,16.772,16.772,0,0,0-1.757-1.48A11.386,11.386,0,0,0,14.162,35.9a2.48,2.48,0,0,0-1.331,2.2V54.507c20.312.027,18.454,0,18.576,0a12.688,12.688,0,0,0,9.034-3.743l9.145-9.145a3.141,3.141,0,0,0,0-4.474Z"
+                          fill="currentColor"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </label>
+                <label
+                  for="card"
+                  class="mbn-section-two-contact-us-form-radio-option"
+                >
+                  <input type="radio" id="card" name="service-type" />
+                  <div
+                    class="mbn-section-two-contact-us-form-radio-option-icon-container"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="60.515"
+                      height="60.515"
+                      viewBox="0 0 60.515 60.515"
+                    >
+                      <path
+                        d="M5.319,60.515H30.257A5.325,5.325,0,0,0,35.576,55.2V46.213H23.166a5.325,5.325,0,0,1-5.319-5.319V16.074a5.325,5.325,0,0,1,5.319-5.319h12.41V5.319A5.325,5.325,0,0,0,30.257,0H5.319A5.325,5.325,0,0,0,0,5.319V55.2A5.325,5.325,0,0,0,5.319,60.515Zm12.528-55.2A1.878,1.878,0,0,1,19.62,7.21a1.773,1.773,0,0,1-3.546,0A1.878,1.878,0,0,1,17.847,5.319Zm-1.773,44.44H19.62a1.773,1.773,0,1,1,0,3.546H16.074a1.773,1.773,0,0,1,0-3.546Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M218.349,121H182.773A1.772,1.772,0,0,0,181,122.773v5.319h39.122v-5.319A1.772,1.772,0,0,0,218.349,121ZM181,147.593a1.772,1.772,0,0,0,1.773,1.773h35.576a1.772,1.772,0,0,0,1.773-1.773V131.637H181Zm26.593-12.41h3.546a1.773,1.773,0,0,1,0,3.546h-3.546a1.773,1.773,0,0,1,0-3.546Z"
+                        transform="translate(-159.607 -106.699)"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                </label>
+                <label
+                  for="education"
+                  class="mbn-section-two-contact-us-form-radio-option"
+                >
+                  <input type="radio" id="education" name="service-type" />
+                  <div
+                    class="mbn-section-two-contact-us-form-radio-option-icon-container"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="64"
+                      height="64"
+                      viewBox="0 0 64 64"
+                    >
+                      <g transform="translate(-1 -1)">
+                        <path
+                          d="M61.1,1H4.9A3.971,3.971,0,0,0,1,4.9V51.5a3.9,3.9,0,0,0,3.9,3.9H61.1A3.9,3.9,0,0,0,65,51.5V4.9A3.9,3.9,0,0,0,61.1,1ZM37.4,51.1H28.7a1,1,0,1,1,0-2h8.7a1,1,0,0,1,0,2ZM63,44.7H3V4.9A1.967,1.967,0,0,1,4.9,3H61.1A1.967,1.967,0,0,1,63,4.9ZM46.5,63H43V57.5H23.1V63H19.6a1,1,0,0,0-1,1,.945.945,0,0,0,1,1H46.5a1,1,0,0,0,1-1A1.075,1.075,0,0,0,46.5,63Z"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M31.1,26.2a2.958,2.958,0,0,1-1-.2L19,21.8V32.2c0,3.6,9.3,3.8,12.1,3.8s12.1-.3,12.1-3.8V21.8L32.2,26A3.6,3.6,0,0,1,31.1,26.2Z"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M50.5,16.3H46.9L31.5,10.5a.854.854,0,0,0-.7,0L15.2,16.4a.961.961,0,0,0-.6.9,1.013,1.013,0,0,0,.6.9l15.6,5.9c.1,0,.2.1.3.1a.756.756,0,0,0,.4-.1l15.4-5.8h2.7V33.6a.945.945,0,0,0,1,1,1,1,0,0,0,1-1V17.3a1.09,1.09,0,0,0-1.1-1Z"
+                          fill="currentColor"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </label>
+                <label
+                  for="purchasing"
+                  class="mbn-section-two-contact-us-form-radio-option"
+                >
+                  <input type="radio" id="purchasing" name="service-type" />
+                  <div
+                    class="mbn-section-two-contact-us-form-radio-option-icon-container"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="55.514"
+                      height="59.986"
+                      viewBox="0 0 55.514 59.986"
+                    >
+                      <g transform="translate(-6.087 -4)">
+                        <path
+                          d="M51.76,4H32.511a8.58,8.58,0,0,0-8.569,8.569V15.7a1.071,1.071,0,1,0,2.142,0V12.569a6.432,6.432,0,0,1,6.427-6.427H51.76a6.432,6.432,0,0,1,6.427,6.427V53.263h-32.1V48.315a1.071,1.071,0,0,0-2.142,0v7.1a8.58,8.58,0,0,0,8.569,8.569H51.76a8.58,8.58,0,0,0,8.569-8.569V12.569A8.58,8.58,0,0,0,51.76,4ZM44.819,59.476H39.463a1.071,1.071,0,0,1,0-2.142h5.356a1.071,1.071,0,1,1,0,2.142Z"
+                          transform="translate(1.271)"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M13.751,16.062h3.567L21.2,31.541H20.36a3.278,3.278,0,1,0,0,6.556H40.188a1.071,1.071,0,1,0,0-2.142H20.36a1.135,1.135,0,0,1,0-2.271H38.6a3.271,3.271,0,0,0,3.106-2.239l2.935-8.816a3.274,3.274,0,0,0-3.106-4.306H20.092l-.9-3.6a1.068,1.068,0,0,0-1.039-.8h-4.4a1.071,1.071,0,0,0,0,2.142ZM20.414,38.4a3.519,3.519,0,1,0,3.524,3.524A3.519,3.519,0,0,0,20.414,38.4Zm17.139,0a3.519,3.519,0,1,0,3.524,3.524A3.519,3.519,0,0,0,37.553,38.4ZM7.159,21.5H12.43a1.071,1.071,0,1,0,0-2.142H7.161a1.071,1.071,0,1,0,0,2.142Z"
+                          transform="translate(0 0.706)"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M7.159,25.142h7.464a1.071,1.071,0,1,0,0-2.142H7.159a1.071,1.071,0,1,0,0,2.142Zm11.614,3.214A1.071,1.071,0,0,0,17.7,27.285H7.158a1.071,1.071,0,1,0,0,2.142H17.7a1.071,1.071,0,0,0,1.071-1.071Z"
+                          transform="translate(0 1.352)"
+                          fill="currentColor"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </label>
+                <label
+                  for="development"
+                  class="mbn-section-two-contact-us-form-radio-option"
+                >
+                  <input type="radio" id="development" name="service-type" />
+                  <div
+                    class="mbn-section-two-contact-us-form-radio-option-icon-container"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="59.829"
+                      height="59.829"
+                      viewBox="0 0 59.829 59.829"
+                    >
+                      <g transform="translate(-0.529 -0.528)">
+                        <path
+                          d="M11.5.528A3,3,0,0,0,8.507,3.516V8.5H52.373V3.516A3,3,0,0,0,49.388.528Zm1.994,3.987a.995.995,0,1,1-.995.995.995.995,0,0,1,.995-.995Zm3.991,0a.995.995,0,1,1-.995.995.995.995,0,0,1,.995-.995Zm3.987,0a.995.995,0,1,1-.995.995.995.995,0,0,1,.995-.995Zm13.906,0H47.394a1,1,0,0,1,0,2H35.426A1,1,0,0,1,35.377,4.515ZM3.517,6.509a3.007,3.007,0,0,0-2.988,3V45.4a3,3,0,0,0,2.988,2.988H57.362a3.007,3.007,0,0,0,3-2.988V9.5a3.015,3.015,0,0,0-3-3H54.378V8.5h2.985a.98.98,0,0,1,1,1V38.417H2.519V9.5a.98.98,0,0,1,1-1h3v-2ZM8.507,10.5V36.423H52.373V10.5Zm24.94,3.976a1,1,0,0,1,.935,1.327L28.4,33.751a1,1,0,0,1-1.9-.633L32.49,15.173a1,1,0,0,1,.961-.7Zm5.615,4.232,5.973,4.99a1,1,0,0,1,0,1.53l-5.977,4.986a1,1,0,1,1-1.281-1.53l5.065-4.221-5.061-4.221a1,1,0,1,1,1.278-1.534ZM22.443,18.47a1,1,0,0,1,.659,1.771l-5.065,4.221,5.069,4.225a1,1,0,1,1-1.274,1.53l-5.984-4.99a1,1,0,0,1,0-1.53l5.977-4.99a1,1,0,0,1,.611-.237ZM32.43,42.4a1,1,0,0,1,0,2H28.446a1,1,0,1,1-.019-2Zm-8.317,7.982a8.207,8.207,0,0,1-1.093,2H37.86a8.207,8.207,0,0,1-1.093-2ZM19.47,54.373a3,3,0,0,0-2.992,2.988v2a1,1,0,0,0,1,1H43.4a1,1,0,0,0,.995-1v-2a3,3,0,0,0-2.988-2.985Z"
+                          fill="currentColor"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </label>
+              </div>
+              <label
+                for="contact-us-form-message"
+                class="mbn-section-two-contact-us-form-text-area-container"
+              >
+                <p class="mbn-section-two-contact-us-form-input-label">
+                  תוכן הפניה
+                </p>
+                <textarea
+                  class="mbn-section-two-contact-us-form-text-area"
+                  name="contact-us-form-message"
+                  id="contact-us-form-message"
+                >
+                </textarea>
+                <input
+                  class="btn btn-gradient mbn-section-two-contact-us-form-submit"
+                  type="submit"
+                  value="לִשְׁלוֹחַ"
+                />
+              </label>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer id="mbn-footer">
+        <div class="mbn-footer-content">
+          <div class="mbn-footer-logo">
+            <img src="./images/main-logo.png" alt="mbn-logo" />
+            <h2>M.B.N Services</h2>
+          </div>
+          <ul class="mbn-footer-links">
+            <li><a href="/">צור קשר</a></li>
+            <li><a href="/">לגבי החברה</a></li>
+            <li><a href="/">השירותים שלנו</a></li>
+            <li><a href="/">אשִׁי</a></li>
+          </ul>
+          <form class="mbn-footer-form" action="/">
+            <input
+              class="btn btn-gradient mbn-footer-form-submit"
+              type="submit"
+              value="חיפוש"
+            />
+            <input
+              class="mbn-footer-form-input"
+              type="text"
+              placeholder="הקלד את מילת החיפוש"
+            />
+          </form>
+          <div class="mbn-footer-other-links">
+            <a href="/">מדיניות הפרטיות</a>
+            <span></span>
+            <a href="/">תנאים והגבלות</a>
+          </div>
+          <p class="mbn-footer-copyright">© 2023 copyright M.B.N Services</p>
+        </div>
+      </footer>
+      <!-- modal -->
+      <div id="mbn-service-modal">
+        
+        <div class="mbn-service-modal-content">
+          <button class="mbn-service-modal-close-btn">
+            <svg
+              width="10"
+              height="11"
+              viewBox="0 0 10 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.8837 5.50023L9.81688 1.56748C10.061 1.32333 10.061 0.927487 9.81688 0.683357C9.57273 0.439207 9.17688 0.439207 8.93275 0.683357L4.99999 4.61652L1.06724 0.683357C0.823086 0.439207 0.427243 0.439207 0.183113 0.683357C-0.061018 0.927507 -0.0610375 1.32335 0.183113 1.56748L4.11627 5.50023L0.183113 9.433C-0.0610375 9.67715 -0.0610375 10.073 0.183113 10.3171C0.427263 10.5613 0.823106 10.5613 1.06724 10.3171L4.99999 6.38394L8.93273 10.3171C9.17688 10.5613 9.57273 10.5613 9.81686 10.3171C10.061 10.073 10.061 9.67713 9.81686 9.433L5.8837 5.50023Z"
+                fill="#130F26"
+              />
+            </svg>
+          </button>
+          <div class="mbn-service-modal-content-service mbn-service-modal-content-service-education" data-name="education">
+            <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+            <p>טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים..</p>
+            <div class="mbn-service-modal-content-service-videos">
+              <img src="./images/modal-image1.jpg" alt="img">
+              <img src="./images/modal-image2.jpg" alt="img">
+              <img src="./images/modal-image3.jpg" alt="img">
+            </div>
+            <button class="btn mbn-service-modal-content-service-action">התחל עכשיו</button>
+          </div>
+          <div class="mbn-service-modal-content-service mbn-service-modal-content-service-card" data-name="card">
+            <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+            <p>טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים..</p>
+            <div class="mbn-service-modal-content-service-videos">
+              <img src="./images/modal-image1.jpg" alt="img">
+              <img src="./images/modal-image2.jpg" alt="img">
+              <img src="./images/modal-image3.jpg" alt="img">
+            </div>
+            <button class="btn mbn-service-modal-content-service-action">התחל עכשיו</button>
+          </div>
+          <div class="mbn-service-modal-content-service mbn-service-modal-content-service-cart" data-name="cart">
+            <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+            <p>טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים..</p>
+            <div class="mbn-service-modal-content-service-videos">
+              <img src="./images/modal-image1.jpg" alt="img">
+              <img src="./images/modal-image2.jpg" alt="img">
+              <img src="./images/modal-image3.jpg" alt="img">
+            </div>
+            <button class="btn mbn-service-modal-content-service-action">התחל עכשיו</button>
+          </div>
+          <div class="mbn-service-modal-content-service mbn-service-modal-content-service-development" data-name="development">
+            <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+            <p>טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים..</p>
+            <div class="mbn-service-modal-content-service-videos">
+              <img src="./images/modal-image1.jpg" alt="img">
+              <img src="./images/modal-image2.jpg" alt="img">
+              <img src="./images/modal-image3.jpg" alt="img">
+            </div>
+            <button class="btn mbn-service-modal-content-service-action">התחל עכשיו</button>
+          </div>
+          <div class="mbn-service-modal-content-service mbn-service-modal-content-service-serving" data-name="serving">
+            <h1>שם השירות וההסבר <span>הפשוט שלו</span></h1>
+            <p>טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק  טקסט זה הוא דוגמה לטקסט שניתן להחליף באותו חלל.טקסט זה נוצר ממחולל הטקסט בערבית, בו ניתן להפיק טקסט כזה או טקסטים רבים אחרים.טקסט כזה או טקסטים רבים אחרים..</p>
+            <div class="mbn-service-modal-content-service-videos">
+              <img src="./images/modal-image1.jpg" alt="img">
+              <img src="./images/modal-image2.jpg" alt="img">
+              <img src="./images/modal-image3.jpg" alt="img">
+            </div>
+            <button class="btn mbn-service-modal-content-service-action">התחל עכשיו</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
